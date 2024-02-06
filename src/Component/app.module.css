@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#NavBar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+}
+#NavBar>a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Createuser{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(32, 30, 30);
+}
+#Createuser>form{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background: black;
+    border: 1px solid rgb(77, 4, 4);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(226, 99, 99);
+    color: white;
+    line-height: 35px;
+}
+#Createuser>form>button{
+    margin-top: 20px;
+    height: 20px;
+    background: rgb(148, 1, 1);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+    background: red;
+}
+#Createuser>form>input:focus{
+    outline: none;
+}
+#userHome{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+}
+#userHome>div{
+    height: 250px;
+    width: 200px;
+    padding: 17px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    color: white;
+}
+#userHome>div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#userHome>div>table>tr>{
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#userHome>div>table>tr>td{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userHome>div>table>tr>td>button{
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 10px;
+}
+#userHome>div>table>tr>td>button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#userHome>div>table>tr>td>button>a{
+    text-decoration: none;
+    color: white;
+}

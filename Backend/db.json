@@ -1,0 +1,22 @@
+{
+  "emp": [
+    {
+      "ename": "Happy ki bb",
+      "ecompuny": "love ajkal hai",
+      "esal": "6000",
+      "id": 3
+    },
+    {
+      "ename": "Rajesh",
+      "ecompuny": "Pyspiders",
+      "esal": "000000",
+      "id": 4
+    },
+    {
+      "ename": "Kapin ",
+      "ecompuny": "Cypher",
+      "esal": "500000",
+      "id": 5
+    }
+  ]
+}
